@@ -42,11 +42,28 @@ Insurance-Premium-Predictor/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/VidyanandYadav/Insurance-Premium-Predictor.git
 cd Insurance-Premium-Predictor
 ```
 
-Replace `YOUR_REPOSITORY_URL` with your GitHub repository URL.
+### 2. Create a virtual environment
+
+```bash
+python -m venv venv
+```
+
+Activate it on Windows PowerShell:
+
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+### 3. Install dependencies
+
+```bash
+python -m pip install -r requirements.txt
+```
+
 
 ### 2. Create a virtual environment
 
